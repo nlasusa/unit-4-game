@@ -1,0 +1,34 @@
+body {
+    font-family: "Geneva";
+}
+#gametitle {
+    font-size: 40px;
+    background-color: #F03A4C;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#instructions {
+    color: #463AF0;
+    padding: 20px;
+    border: dashed;
+}
+
+.theNumber {
+    background-color: #F0E433;
+    font-size: 30px;
+    padding: 35px;
+    text-align: center;
+}
+
+.winsAndLosses {
+    background-color: lightcyan; 
+    font-size: 20px;
+    padding: 6px;
+}
+
+.crystalImage {
+    width: 150px;
+    height: 150px;
+}

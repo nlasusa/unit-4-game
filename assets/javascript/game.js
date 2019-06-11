@@ -45,7 +45,7 @@ function resetGame (){
 function winner () {
     alert ("Awesome, you got it!");
     wins++;
-    $("numberWins").text(wins);
+    $("#numberWins").text(wins);
     resetGame();
 }
 
@@ -53,9 +53,10 @@ function winner () {
 function loser (){
     alert ("You Lose! Better luck next time!");
     losses++;
-    $("numberLosses").text(losses);
+    $("#numberLosses").text(losses);
     resetGame();
 }
+
 
 // click functions for crys1, crys2, crys3 and crys 4
 $("#img1").on("click", function(){
